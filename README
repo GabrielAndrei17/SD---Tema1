@@ -1,0 +1,16 @@
+/* ANDREI Gabriel - 313CB */
+
+   README
+Programul preia date din fisierul dat la intrare, fiecare rand din fisierul
+si in functie de comanda data(primul string de pe rand) executa anumite operatii 
+cu tabela hash pe care o initializeaza la inceput:
+
+-print : afisaza continutul tabelei hash
+-put : construieste o structura DNS cu numele si ip-ul citit si o va adauga in tabela
+-print_bucket : afisaza continutul din bucketul dat
+-find : construieste o structura DNS cu numele dat si o va cauta in tabela
+-get : asemanator cu find
+-remove : construieste o structura DNS cu numele dat si o va elimina din tabela
+
+Main-ul a fost realizat cu ajutorul functiilor definite in "functii.h". Acestea sunt 
+operatii de baza cu liste dublu inlantuite fara santinela, dar si functii cu tabela hash.
